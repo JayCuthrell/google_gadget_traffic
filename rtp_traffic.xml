@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+<ModulePrefs 
+	title="__UP_cam__" 
+	directory_title="RTP Traffic" 
+	title_url="http://fudge.org/?rtp_traffic" 
+	description="This module assumes you work in RTP a.k.a. Research Triangle Park and want to peek before you enter the fray.  You can add this module multiple times to see the paths you might take.  All cam content via NC DOT homepages."
+	author="Jay Cuthrell" 
+	author_email="jcuthrell+traffic@gmail.com" 
+	author_affiliation="Cuthrell Consulting, LLC" 
+	author_location="Atlanta, GA"
+	screenshot="http://static.flickr.com/103/300382013_57bdb50886_m.jpg"
+	thumbnail="http://static.flickr.com/103/300382013_57bdb50886_t.jpg"
+	category="lifestyle" category2="funandgames"
+	author_photo="http://static.flickr.com/10/11441087_221d866aa3_t.jpg"
+	author_aboutme="I eat paste."
+	author_link="http://fudge.org/?rtp_traffic" 
+	author_quote="Start it like you are going to finish it." 
+/>
+<UserPref name="cam" datatype="enum" default_value="airport-i-40"> 
+  <EnumValue value="15-501-i-40" display_value="I-40 Exit 270 - US 15-501" />
+  <EnumValue value="nc-54-i-40" display_value="I-40 Exit 273 - NC 54" />
+  <EnumValue value="nc-751-i-40" display_value="I-40 Exit 274 - NC 751" />
+  <EnumValue value="fay-i-40" display_value="I-40 Exit 276 - Fayetteville Rd" />
+  <EnumValue value="nc-55-i-40" display_value="I-40 Exit 278 - NC 55" />
+  <EnumValue value="durfrwy-i-40" display_value="I-40 Exit 279A - Durham Freeway" />
+  <EnumValue value="davis-i-40" display_value="I-40 Exit 280 - Davis Dr" />
+  <EnumValue value="miami-i-40" display_value="I-40 Exit 281 - Miami Blvd" />
+  <EnumValue value="page-i-40" display_value="I-40 Exit 282 - Page Rd" />
+  <EnumValue value="i-540-i-40" display_value="I-40 Exit 283 - I-540" />
+  <EnumValue value="airport-i-40" display_value="I-40 Exit 284 - Airport Blvd" />
+  <EnumValue value="aviation-i-40" display_value="I-40 Exit 285 - Aviation Pkwy" />
+  <EnumValue value="harrison-i-40" display_value="I-40 Exit 287 - Harrison Ave" />
+  <EnumValue value="i-40-wade" display_value="I-40 Exit 289 - Wade Ave" />
+  <EnumValue value="nw-hptower" display_value="Blue Ridge Road - HP TowerCam (Northwest)" />
+  <EnumValue value="se-hptower" display_value="Blue Ridge Road - HP TowerCam (Southeast)" />
+  <EnumValue value="trinity" display_value="Edwards Mill Rd - Trinity" />
+  <EnumValue value="edmill-wade" display_value="Edwards Mill Rd - Wade Ave" />
+  <EnumValue value="i-40-reedycrk" display_value="Edwards Mill Rd - Reedy Creek" />
+  <EnumValue value="dural-edmill" display_value="Edwards Mill Rd - Duraleigh Rd" />
+  <EnumValue value="gleneden" display_value="Edwards Mill Rd - Glen Eden" />
+  <EnumValue value="nc50-us70" display_value="Edwards Mill Rd - Glenwood Avenue" />
+  <EnumValue value="newbern-440" display_value="US 64 - New Bern Ave - I-440" />
+  <EnumValue value="trawick-us64" display_value="US 64 - Trawick Rd" />
+  <EnumValue value="newhope" display_value="US 64 - New Hope Rd" />
+  <EnumValue value="rogers" display_value="US 64 - Rogers Ln" />
+  <EnumValue value="oldmilburn" display_value="US 64 - Old Milburnie Rd" />
+  <EnumValue value="hodge" display_value="US 64 - Hodge Rd" />
+  <EnumValue value="smthfld-us64" display_value="US 64 - Smithfield Rd" />
+  <EnumValue value="us70-nc98" display_value="US 70 Bypass / NC 98" />
+  <EnumValue value="roxboro-i-85" display_value="I-85 / Roxboro St" />
+  <EnumValue value="guess-i-85" display_value="I-85 / Guess Rd" />
+  <EnumValue value="hillandale-i-85" display_value="I-85 / Hillandale Rd" />
+  <EnumValue value="hillsboro" display_value="US 15-501 / Hillsborough" />
+  <EnumValue value="fulton-erw" display_value="Erwin Rd / Fulton St" />
+  <EnumValue value="mlkpkwy-15-501" display_value="US 15-501 / MLK Pkwy" />
+  <EnumValue value="dwntndur" display_value="CCB Tower - Downtown Durham" />
+  <EnumValue value="i-440-wade" display_value="I-440 / Wade Ave" />
+  <EnumValue value="147nofi-40" display_value="NC 147 North of I-40" />
+</UserPref>
+<UserPref name="heig" 
+	display_name="Resize Height" 
+	default_value="120" 
+	required="true"
+/>
+<UserPref 
+	name="widt" 
+	display_name="Resize Width" 
+	default_value="160" 
+	required="true"
+/>
+<Content 
+	type="html"> 
+	<![CDATA[
+	<div align="center">
+	<a href="http://fudge.org/?rtp_traffic" target="_blank"><img src="http://apps.dot.state.nc.us/tims/cameras/viewimage.ashx?id=__UP_cam__.jpg" width="__UP_widt__" height="__UP_heigh__" border="0" align="middle"></a></div>
+	]]> 
+</Content>
+</Module>
