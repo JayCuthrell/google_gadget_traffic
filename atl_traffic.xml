@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+<ModulePrefs
+title="__UP_cam__"
+directory_title="ATL Traffic"
+title_url="http://fudge.org/?atl_traffic"
+description="This module assumes you work in ATL a.k.a. Atlanta and want to peek before you enter the fray. You can add this module multiple times to see the paths you might take. All cam content via Georgia Navigator homepages of the GDOT.  It is very similar to my RTP Traffic module that I used when I lived in Raleigh, Cary, and Morrisville, NC." 
+author="Jay Cuthrell"
+author_email="jcuthrell+traffic@gmail.com"
+author_affiliation="Cuthrell Consulting, LLC"
+author_location="Atlanta, GA"
+screenshot="http://static.flickr.com/103/300382013_57bdb50886_m.jpg"
+thumbnail="http://static.flickr.com/103/300382013_57bdb50886_t.jpg"
+category="lifestyle" category2="funandgames"
+author_photo="http://static.flickr.com/10/11441087_221d866aa3_t.jpg"
+author_aboutme="I eat paste."
+author_link="http://fudge.org/?atl_traffic"
+author_quote="Start it like you are going to finish it."
+/>
+<UserPref name="cam" datatype="enum" default_value="gdot_cam_825">
+
+<EnumValue value="gdot_cam_57" display_value="sr 166 at us 29" /> 
+<EnumValue value="gdot_cam_87" display_value="i-85 at jimmy carter blvd" /> 
+<EnumValue value="clay_cam_104" display_value="tara @ battlecreek" /> 
+<EnumValue value="gdot_cam_275" display_value="i-285 eb near forest park rd" /> 
+<EnumValue value="gdot_cam_237" display_value="i-285 at henderson rd" /> 
+<EnumValue value="clay_cam_802" display_value="forest pkwy at old dixie hwy" /> 
+<EnumValue value="gdot_cam_437" display_value="i-75 s of frey rd" /> 
+<EnumValue value="gdot_cam_273" display_value="i-285 eb at i-675" /> 
+<EnumValue value="gdot_cam_105" display_value="i-85 n of indian trail" /> 
+<EnumValue value="gdot_cam_232" display_value="i-285 west of i-85 (dekalb)" /> 
+<EnumValue value="gdot_cam_716" display_value="i-75 n of flippen rd" /> 
+<EnumValue value="gdot_cam_24" display_value="i-75 at northside dr" /> 
+<EnumValue value="clay_cam_304" display_value="sr 54 @ mt zion rd" /> 
+<EnumValue value="gdot_cam_825" display_value="sr 400 s of hammond dr" /> 
+<EnumValue value="gdot_cam_595" display_value="sr 141 sb at jones mill rd" /> 
+<EnumValue value="gdot_cam_269" display_value="i-285 eb at clifton springs rd" /> 
+<EnumValue value="gdot_cam_407" display_value="i-75 s of s 120 loop" /> 
+<EnumValue value="gdot_cam_40" display_value="i-85 s of clairmont rd" /> 
+<EnumValue value="gdot_cam_411" display_value="i-75 at gresham rd" /> 
+<EnumValue value="gdot_cam_140" display_value="clairmont rd at i-85" /> 
+<EnumValue value="clay_cam_701" display_value="u r-dale @ arrowhead" /> 
+<EnumValue value="gdot_cam_26" display_value="i-75 near peachtree battle" /> 
+<EnumValue value="gdot_cam_25" display_value="i-75 at collier rd" /> 
+<EnumValue value="gdot_cam_599" display_value="sr 141 sb at tilly mill rd" /> 
+<EnumValue value="gdot_cam_201" display_value="i-285 west of i75 (cobb)" /> 
+<EnumValue value="gdot_cam_82" display_value="i-75 at cw grant pkwy" /> 
+<EnumValue value="gdot_cam_424" display_value="i-75 at i-575" /> 
+<EnumValue value="cobb_cam_104" display_value="johnson ferry at roswell rd" /> 
+<EnumValue value="gdot_cam_336" display_value="i-20 east of mlk jr dr" /> 
+<EnumValue value="gdot_cam_68" display_value="i-75 at forest pkwy" /> 
+<EnumValue value="gdot_cam_376" display_value="i-20 eb e of i-285 (dekalb)" /> 
+<EnumValue value="gdot_cam_829" display_value="sr 400 at spalding dr" /> 
+<EnumValue value="gdot_cam_100" display_value="i-85 n of jimmy carter" /> 
+<EnumValue value="cobb_cam_301" display_value="johnson ferry at columns" /> 
+<EnumValue value="gdot_cam_231" display_value="i-285 east of buford hwy" /> 
+<EnumValue value="gdot_cam_35" display_value="i-85 at marta overpass" /> 
+<EnumValue value="gdot_cam_204" display_value="i-285 1 mi w of pwrs fry" /> 
+<EnumValue value="clay_cam_305" display_value="sr 54 @ southern rd" /> 
+<EnumValue value="gdot_cam_400" display_value="i-75 at i-285 (cobb)" /> 
+<EnumValue value="clay_cam_105" display_value="tara @ sr 138" /> 
+<EnumValue value="gdot_cam_355" display_value="i-20 at glenwood connctr" /> 
+<EnumValue value="gdot_cam_41" display_value="i-85 near clairmont rd" /> 
+<EnumValue value="gdot_cam_274" display_value="i-285 eb at moreland ave" /> 
+<EnumValue value="gdot_cam_250" display_value="i-285 at north decatur rd" /> 
+<EnumValue value="gdot_cam_56" display_value="sr 166 west of newnan st" /> 
+<EnumValue value="gdot_cam_67" display_value="i-75 near kennedy dr" /> 
+<EnumValue value="gdot_cam_258" display_value="i-285 north of glenwood rd" /> 
+<EnumValue value="gdot_cam_263" display_value="i-285 sb at i-20 entrance ramp" /> 
+<EnumValue value="gdot_cam_120" display_value="chamblee-tucker rd at i-85" /> 
+<EnumValue value="gdot_cam_103" display_value="i-85 s of indian trail" /> 
+<EnumValue value="gdot_cam_412" display_value="i-75 nb at n 120 loop" /> 
+<EnumValue value="gdot_cam_94" display_value="i-85 1 mi s of shallowford rd" /> 
+<EnumValue value="fult_cam_3" display_value="roswell rd at beachland dr" /> 
+<EnumValue value="cobb_cam_311" display_value="bells ferry at i-575" /> 
+<EnumValue value="cobb_cam_23" display_value="s cobb dr at austell rd" /> 
+<EnumValue value="gdot_cam_598" display_value="sr 141 sb at homeland dr" /> 
+<EnumValue value="gdot_cam_9" display_value="i-75/85 at mlk jr dr" /> 
+<EnumValue value="gdot_cam_70" display_value="i-75 s of 285 (south side)" /> 
+<EnumValue value="gdot_cam_37" display_value="i-85 at ga 400 ramps" /> 
+<EnumValue value="gdot_cam_27" display_value="i-75 at moores mill rd" /> 
+<EnumValue value="gdot_cam_377" display_value="i-20 e of i-285 (dekalb)" /> 
+<EnumValue value="gdot_cam_423" display_value="i-75 s of i-575" /> 
+<EnumValue value="clay_cam_302" display_value="sr 54 @ reynolds dr" /> 
+<EnumValue value="gdot_cam_202" display_value="i-285 at i-75 (cobb)" /> 
+<EnumValue value="gdot_cam_102" display_value="i-85 n of center way" /> 
+<EnumValue value="gdot_cam_16" display_value="i-75/85 sb at spring st" /> 
+<EnumValue value="gdot_cam_221" display_value="i-285 1 mi e of ash-dnwdy" /> 
+<EnumValue value="gdot_cam_215" display_value="i-285 at glenridge dr" /> 
+<EnumValue value="gdot_cam_10" display_value="i-75/85 at grady curve" /> 
+<EnumValue value="gdot_cam_218" display_value="i-285 at peachtree-dnwdy" /> 
+<EnumValue value="gdot_cam_21" display_value="i-75 at brookwood int" /> 
+<EnumValue value="gdot_cam_203" display_value="i-285 east of i75 (cobb)" /> 
+<EnumValue value="gdot_cam_430" display_value="i-75 sb n of barrett pkwy" /> 
+<EnumValue value="cobb_cam_59" display_value="cobb pkwy at paces mill" /> 
+<EnumValue value="gdot_cam_49" display_value="sr 166 at greenbriar pkwy" /> 
+<EnumValue value="gdot_cam_66" display_value="i-75 at jc penney" /> 
+<EnumValue value="gdot_cam_92" display_value="i-85 on peachtree st overpass" /> 
+<EnumValue value="gdot_cam_207" display_value="i-285 at new northside" /> 
+<EnumValue value="gdot_cam_417" display_value="i-75 n of allgood rd" /> 
+<EnumValue value="gdot_cam_17" display_value="i-75/85 n of north ave" /> 
+<EnumValue value="gdot_cam_590" display_value="sr 141 nb s of scientific dr" /> 
+<EnumValue value="gdot_cam_253" display_value="i-285 at durham park rd" /> 
+<EnumValue value="gdot_cam_230" display_value="i-285 at buford highway" /> 
+<EnumValue value="clay_cam_702" display_value="u r-dale @ roy huie" /> 
+<EnumValue value="gdot_cam_249" display_value="i-285 south of church st" /> 
+<EnumValue value="clay_cam_804" display_value="forest pkwy e/o philips dr" /> 
+<EnumValue value="cobb_cam_53" display_value="cobb pkwy at spring rd" /> 
+<EnumValue value="gdot_cam_12" display_value="i-75/85 at intl blvd" /> 
+<EnumValue value="gdot_cam_213" display_value="i-285 at roswell road" /> 
+<EnumValue value="gdot_cam_720" display_value="i-75 sb at hudson bridge" /> 
+<EnumValue value="gdot_cam_259" display_value="i-285 at glenwood rd" /> 
+<EnumValue value="gdot_cam_409" display_value="i-75 n of s 120 loop" /> 
+<EnumValue value="gdot_cam_717" display_value="i-75 nb n of hudson bridge rd" /> 
+<EnumValue value="cobb_cam_956" display_value="cobb pkwy at allgood rd" /> 
+<EnumValue value="gdot_cam_261" display_value="i-285 sb at i-20 exit ramp" /> 
+<EnumValue value="cobb_cam_934" display_value="n marietta pkwy at church st" /> 
+<EnumValue value="gdot_cam_54" display_value="sr 166 at stanton rd" /> 
+<EnumValue value="clay_cam_108" display_value="tara @ flint river rd" /> 
+<EnumValue value="gdot_cam_326" display_value="i-20 wb at 285 nb exit" /> 
+<EnumValue value="cobb_cam_45" display_value="powers ferry at windy hill rd" /> 
+<EnumValue value="gdot_cam_596" display_value="sr 141 s of jones mill rd" /> 
+<EnumValue value="gdot_cam_271" display_value="i-285 wb at bouldercrest rd" /> 
+<EnumValue value="gdot_cam_414" display_value="i-75 n of n 120 loop" /> 
+<EnumValue value="gdot_cam_212" display_value="i-285 west of roswell rd" /> 
+<EnumValue value="gdot_cam_42" display_value="i-85 1 mi n of clairmont" /> 
+<EnumValue value="gdot_cam_244" display_value="i-285 south of us 29 / lawrenceville hwy" /> 
+<EnumValue value="gdot_cam_719" display_value="i-75 nb at hudson bridge" /> 
+<EnumValue value="gdot_cam_106" display_value="i-85 at beaver ruin" /> 
+<EnumValue value="gdot_cam_45" display_value="i-85 at chamblee-tucker" /> 
+<EnumValue value="gdot_cam_93" display_value="i-85 s at shallowford rd" /> 
+<EnumValue value="gdot_cam_36" display_value="i-85 at monroe dr" /> 
+<EnumValue value="gdot_cam_210" display_value="i-285 at mt vernon hwy" /> 
+<EnumValue value="gdot_cam_75" display_value="i-85 s of virginia ave" /> 
+<EnumValue value="gdot_cam_401" display_value="i-75 s of windy hill rd" /> 
+<EnumValue value="gdot_cam_13" display_value="i-75/85 nb at courtland st" /> 
+<EnumValue value="gdot_cam_710" display_value="i-75 s of fielder rd" /> 
+<EnumValue value="atla_cam_16" display_value="piedmont rd &amp; pharr rd" /> 
+<EnumValue value="gdot_cam_209" display_value="i-285 at riverside dr" /> 
+<EnumValue value="gdot_cam_214" display_value="i-285 east of roswell rd" /> 
+<EnumValue value="gdot_cam_23" display_value="i-75 n of brookwood int" /> 
+<EnumValue value="cobb_cam_51" display_value="cobb pkwy at windy hill rd" /> 
+<EnumValue value="gdot_cam_228" display_value="i-285 at peachtree indus" /> 
+<EnumValue value="fult_cam_5" display_value="roswell rd at lake placid dr" /> 
+<EnumValue value="gdot_cam_43" display_value="i-85 s of shallowford rd" /> 
+<EnumValue value="clay_cam_206" display_value="sr 85 @ sr 138" /> 
+<EnumValue value="gdot_cam_11" display_value="i-75/85 at edgewood" /> 
+<EnumValue value="gdot_cam_260" display_value="i-285 north of snapfinger rd" /> 
+<EnumValue value="gdot_cam_706" display_value="i-75 at mt zion blvd" /> 
+<EnumValue value="gdot_cam_369" display_value="i-20 e of lloyd rd" /> 
+<EnumValue value="gdot_cam_419" display_value="i-75 sb in hwy 5 intrchge" /> 
+<EnumValue value="gdot_cam_99" display_value="i-75 s of peachtree battle" /> 
+<EnumValue value="gdot_cam_438" display_value="i-75 at frey rd" /> 
+<EnumValue value="gdot_cam_272" display_value="i-285 wb e of i-675" /> 
+<EnumValue value="gdot_cam_422" display_value="i-75 n of bells ferry" /> 
+<EnumValue value="cobb_cam_52" display_value="cobb pkwy at hargrove rd" /> 
+<EnumValue value="gdot_cam_826" display_value="sr 400 s of mt vernon hwy" /> 
+<EnumValue value="gdot_cam_55" display_value="sr 166 east of stanton rd" /> 
+<EnumValue value="cobb_cam_93" display_value="lower roswell rd at old canton rd" /> 
+<EnumValue value="clay_cam_801" display_value="forest pkwy e/o kennedy rd" /> 
+<EnumValue value="gdot_cam_101" display_value="i-85 s of center way" /> 
+<EnumValue value="gdot_cam_219" display_value="i-285 at ashford-dnwdy" /> 
+<EnumValue value="gdot_cam_39" display_value="i-85 s of n druid hills rd" /> 
+<EnumValue value="gdot_cam_413" display_value="i-75 sb at n 120 loop" /> 
+<EnumValue value="gdot_cam_589" display_value="sr 141 nb at spalding dr" /> 
+<EnumValue value="cobb_cam_241" display_value="powder springs at macland rd" /> 
+<EnumValue value="gdot_cam_366" display_value="i-20 at flat shoals" /> 
+<EnumValue value="clay_cam_109" display_value="tara @ mundys mill" /> 
+<EnumValue value="gdot_cam_421" display_value="i-75 n of canton rd" /> 
+<EnumValue value="gdot_cam_141" display_value="clairmont rd at briarcliff rd" /> 
+<EnumValue value="gdot_cam_211" display_value="i-285 at long island dr" /> 
+<EnumValue value="gdot_cam_255" display_value="i-285 north of covington hwy" /> 
+<EnumValue value="cobb_cam_201" display_value="johnson ferry at shallowford rd" /> 
+<EnumValue value="clay_cam_803" display_value="forest pkwy w/o west st" /> 
+<EnumValue value="gdot_cam_225" display_value="i-285 west of n peachtree" /> 
+<EnumValue value="gdot_cam_415" display_value="i-75 s of allgood rd" /> 
+<EnumValue value="gdot_cam_592" display_value="sr 141 sb s of holcomb bridge" /> 
+<EnumValue value="gdot_cam_109" display_value="i-85 at steve reynolds" /> 
+<EnumValue value="gdot_cam_834" display_value="sr 400 1/2 mi n of roberts dr" /> 
+<EnumValue value="cobb_cam_55" display_value="cobb pkwy at cumberland mall" /> 
+<EnumValue value="gdot_cam_44" display_value="i-85 n of shallowford rd" /> 
+<EnumValue value="cobb_cam_12" display_value="barrett pkwy at barrett lakes" /> 
+<EnumValue value="cobb_cam_331" display_value="atlanta rd at spring rd" /> 
+<EnumValue value="gdot_cam_265" display_value="i-285 nb at flat shoals pkwy" /> 
+<EnumValue value="gdot_cam_707" display_value="i-75 at mt zion rd" /> 
+<EnumValue value="gdot_cam_375" display_value="i-20 wb at i-285 (dekalb)" /> 
+<EnumValue value="gdot_cam_254" display_value="i-285 near indian creek line" /> 
+<EnumValue value="gdot_cam_73" display_value="i-85 at sylvan rd" /> 
+<EnumValue value="fult_cam_1" display_value="roswell rd at west wieuca" /> 
+<EnumValue value="gdot_cam_5" display_value="i-75/85 at university ave" /> 
+<EnumValue value="gdot_cam_205" display_value="i-285 at chatt river" /> 
+<EnumValue value="cobb_cam_102" display_value="johnson ferry at little willeo rd" /> 
+<EnumValue value="gdot_cam_708" display_value="i-75 n of fielder rd" /> 
+<EnumValue value="clay_cam_308" display_value="main st(jonesboro) @ n ave" /> 
+<EnumValue value="clay_cam_107" display_value="tara @ smith" /> 
+<EnumValue value="gdot_cam_270" display_value="i-285 wb e of bouldercrest rd" /> 
+<EnumValue value="gdot_cam_4" display_value="i-75/85 n of langford pkwy" /> 
+<EnumValue value="gdot_cam_206" display_value="i-285 at northside dr" /> 
+<EnumValue value="cobb_cam_21" display_value="s cobb dr at fairground st" /> 
+<EnumValue value="gdot_cam_403" display_value="i-75 at delk rd" /> 
+<EnumValue value="gdot_cam_362" display_value="i-20 w of flat shoals" /> 
+<EnumValue value="gdot_cam_227" display_value="i-285 west of ptree indstrl" /> 
+<EnumValue value="gdot_cam_246" display_value="i-285 sb at us 78 / stn mt fwy" /> 
+<EnumValue value="cobb_cam_56" display_value="cobb pkwy at akers mill" /> 
+<EnumValue value="gdot_cam_34" display_value="i-75 at 285 (north side)" /> 
+<EnumValue value="gdot_cam_47" display_value="i-75 n of cumberland blvd" /> 
+<EnumValue value="gdot_cam_257" display_value="i-285 south of redwing circle" /> 
+<EnumValue value="gdot_cam_358" display_value="i-20 e of moreland ave" /> 
+<EnumValue value="gdot_cam_220" display_value="i-285 east of ashfd-dnwdy" /> 
+<EnumValue value="gdot_cam_226" display_value="i-285 at north peachtree" /> 
+<EnumValue value="clay_cam_208" display_value="sr 85 @ helmer" /> 
+<EnumValue value="gdot_cam_14" display_value="i-75/85 sb at courtland st" /> 
+<EnumValue value="gdot_cam_18" display_value="i-75/85 s of 10th st" /> 
+<EnumValue value="gdot_cam_709" display_value="i-75 at fielder rd" /> 
+<EnumValue value="gdot_cam_591" display_value="sr 141 sb s of parkway ln" /> 
+<EnumValue value="gdot_cam_63" display_value="i-75 n of tara blvd" /> 
+<EnumValue value="gdot_cam_52" display_value="sr 166 east of dodson dr" /> 
+<EnumValue value="cobb_cam_54" display_value="cobb pkwy at i-285 w" /> 
+<EnumValue value="gdot_cam_333" display_value="i-20 east of fairfield pl" /> 
+<EnumValue value="gdot_cam_72" display_value="i-85 n of sylvan rd" /> 
+<EnumValue value="cobb_cam_334" display_value="paces ferry at i-285" /> 
+<EnumValue value="gdot_cam_405" display_value="i-75 1/2 mi n of delk rd" /> 
+<EnumValue value="gdot_cam_264" display_value="i-285 nb at columbia dr" /> 
+<EnumValue value="gdot_cam_46" display_value="i-85 s of 285 (north side)" /> 
+<EnumValue value="gdot_cam_402" display_value="i-75 at terrell mill rd" /> 
+<EnumValue value="gdot_cam_53" display_value="sr 166 at delowe dr" /> 
+<EnumValue value="gdot_cam_31" display_value="i-75 s of chatt river" /> 
+<EnumValue value="gdot_cam_84" display_value="i-85 s of pleasantdale rd" /> 
+<EnumValue value="cobb_cam_31" display_value="windy hill rd at hospital" /> 
+<EnumValue value="gdot_cam_247" display_value="i-285 south of us 78 / stn mt fwy" /> 
+<EnumValue value="cobb_cam_16" display_value="barrett pkwy at mall blvd" /> 
+<EnumValue value="gdot_cam_245" display_value="i-285 nb at us 78 / stn mt fwy" /> 
+<EnumValue value="clay_cam_805" display_value="forest pkwy at jonesboro rd" /> 
+<EnumValue value="gdot_cam_3" display_value="i-75/85 at langford pkwy" /> 
+<EnumValue value="gdot_cam_835" display_value="sr 400 s of riverside rd" /> 
+<EnumValue value="gdot_cam_262" display_value="i-285 nb at i-20 exit ramp" /> 
+<EnumValue value="fult_cam_7" display_value="roswell rd at johnson ferry rd" /> 
+<EnumValue value="cobb_cam_57" display_value="cobb pkwy at riverwood" /> 
+<EnumValue value="gdot_cam_353" display_value="i-20 at cherokee st" /> 
+<EnumValue value="gdot_cam_279" display_value="i-285 eb w of conley rd" /> 
+<EnumValue value="gdot_cam_281" display_value="i-285 eb w of us 19" /> 
+<EnumValue value="gdot_cam_38" display_value="i-85 at cheshire bridge" /> 
+<EnumValue value="cobb_cam_17" display_value="barrett pkwy at i-575" /> 
+<EnumValue value="cobb_cam_103" display_value="johnson ferry at princeton" /> 
+<EnumValue value="gdot_cam_28" display_value="i-75 s of paces ferry rd" /> 
+<EnumValue value="cobb_cam_101" display_value="johnson ferry at lower roswell rd" /> 
+<EnumValue value="gdot_cam_410" display_value="i-75 s of gresham rd" /> 
+<EnumValue value="gdot_cam_406" display_value="i-75 1/2 mi s of s loop" /> 
+<EnumValue value="cobb_cam_141" display_value="piedmont rd at canton rd" /> 
+<EnumValue value="gdot_cam_594" display_value="sr 141 sb at jimmy carter blvd" /> 
+<EnumValue value="cobb_cam_22" display_value="s cobb dr at atlanta rd" /> 
+<EnumValue value="gdot_cam_107" display_value="i-85 at beaver ruin cms" /> 
+<EnumValue value="gdot_cam_80" display_value="i-75 n of central ave" /> 
+<EnumValue value="clay_cam_306" display_value="sr 54 @ battlecreek" /> 
+<EnumValue value="gdot_cam_267" display_value="i-285 wb w of panthersville rd" /> 
+<EnumValue value="cobb_cam_333" display_value="atlanta rd at i-285" /> 
+<EnumValue value="gdot_cam_64" display_value="i-75 n of bob white trail" /> 
+<EnumValue value="gdot_cam_50" display_value="sr 166 at maxwell dr" /> 
+<EnumValue value="gdot_cam_32" display_value="i-75 at cumberland blvd" /> 
+<EnumValue value="gdot_cam_79" display_value="i-75 at cleveland ave" /> 
+<EnumValue value="gdot_cam_714" display_value="i-75 s of i-675" /> 
+<EnumValue value="cobb_cam_14" display_value="barrett pkwy at i-75 n" /> 
+<EnumValue value="cobb_cam_935" display_value="n marietta pkwy at cherokee st" /> 
+<EnumValue value="cobb_cam_83" display_value="windy hill rd at austell rd" /> 
+<EnumValue value="gdot_cam_241" display_value="i-285 at lavista rd" /> 
+<EnumValue value="gdot_cam_248" display_value="i-285 at e ponce de leon ave" /> 
+<EnumValue value="gdot_cam_234" display_value="i-285 west of cham-tckr" /> 
+<EnumValue value="gdot_cam_331" display_value="i-20 at holmes drive" /> 
+<EnumValue value="gdot_cam_832" display_value="sr 400 at northridge rd" /> 
+<EnumValue value="gdot_cam_1" display_value="i-85 s of langford pkwy" /> 
+<EnumValue value="gdot_cam_208" display_value="i-285 west of rvrside dr" /> 
+<EnumValue value="gdot_cam_372" display_value="i-20 at columbia dr" /> 
+<EnumValue value="gdot_cam_278" display_value="i-285 eb e of conley rd" /> 
+<EnumValue value="gdot_cam_6" display_value="i-75/85 at pryor st" /> 
+<EnumValue value="gdot_cam_277" display_value="i-285 wb at jonesboro rd" /> 
+<EnumValue value="gdot_cam_22" display_value="i-85 at brookwood int" /> 
+<EnumValue value="gdot_cam_338" display_value="i-20 west of langhorn st" /> 
+<EnumValue value="gdot_cam_223" display_value="i-285 east of cham-dnwdy" /> 
+<EnumValue value="gdot_cam_367" display_value="i-20 e of flat shoals" /> 
+<EnumValue value="gdot_cam_236" display_value="i-285 east of cham-tckr" /> 
+<EnumValue value="clay_cam_106" display_value="tara @ n ave" /> 
+<EnumValue value="gdot_cam_51" display_value="sr 166 at dodson dr" /> 
+<EnumValue value="gdot_cam_276" display_value="i-285 wb e of jonesboro rd" /> 
+<EnumValue value="cobb_cam_58" display_value="cobb pkwy at cumberland" /> 
+<EnumValue value="gdot_cam_702" display_value="i-75 s of holiday blvd" /> 
+<EnumValue value="gdot_cam_268" display_value="i-285 wb e of clifton springs rd" /> 
+<EnumValue value="gdot_cam_593" display_value="sr 141 nb n of jimmy carter" /> 
+<EnumValue value="gdot_cam_370" display_value="i-20 at candler rd" /> 
+<EnumValue value="gdot_cam_76" display_value="i-85 at airport exit" /> 
+<EnumValue value="gdot_cam_416" display_value="i-75 at allgood rd" /> 
+<EnumValue value="gdot_cam_233" display_value="i-285 at moreland intrchge" /> 
+<EnumValue value="gdot_cam_108" display_value="i-85 s of steve reynolds" /> 
+<EnumValue value="gdot_cam_374" display_value="i-20 eb at i-285 (dekalb)" /> 
+<EnumValue value="gdot_cam_69" display_value="i-75 n of forest pkwy" /> 
+<EnumValue value="gdot_cam_363" display_value="i-20 at fayetteville rd" /> 
+<EnumValue value="gdot_cam_224" display_value="i-285 at n shallowford" /> 
+<EnumValue value="gdot_cam_597" display_value="sr 141 sb at winters chapel" /> 
+<EnumValue value="gdot_cam_266" display_value="i-285 wb e of panthersville rd" /> 
+<EnumValue value="gdot_cam_89" display_value="i-75 s of delk rd" /> 
+<EnumValue value="gdot_cam_29" display_value="i-75 n of w paces ferry rd" /> 
+<EnumValue value="gdot_cam_280" display_value="i-285 eb at us 19" /> 
+<EnumValue value="gdot_cam_404" display_value="i-75 n of delk rd" /> 
+<EnumValue value="cobb_cam_302" display_value="johnson ferry at paper mill" /> 
+<EnumValue value="gdot_cam_7" display_value="i-75/85 at fulton st exit" /> 
+<EnumValue value="gdot_cam_81" display_value="i-75 at henry ford/central" /> 
+
+</UserPref>
+<UserPref name="heig"
+display_name="Resize Height"
+default_value="201"
+required="true"
+/>
+<UserPref
+name="widt"
+display_name="Resize Width"
+default_value="237"
+required="true"
+/>
+<Content
+type="html">
+<![CDATA[
+<div align="center">
+<a href="http://fudge.org/?atl_traffic" target="_blank"><img src="http://www.georgia-navigator.com/images/dynamic/cameras/small___UP_cam__.jpg" width="__UP_widt__" height="__UP_heigh__" border="0" align="middle"></a></div>
+]]>
+</Content>
+</Module>
